@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int N = 161;
+if (N % 7 == 0 && N % 23 == 0)
+{
+System.Console.WriteLine("да");
+}
+else
+{
+System.Console.WriteLine("нет");
+}
